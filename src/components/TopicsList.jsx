@@ -7,7 +7,7 @@ export default function TopicsList(){
         <div className="mt-4 p-5 flex justify-between rounded-md bg-slate-700">
             <div>
                 <h3 className="text-2xl font-bold">Topic</h3>
-                <div className="mt-2">Topic Descripition</div>
+                <div className="mt-2">Topic Description</div>
             </div>
 
             <div className="flex gap-4 items-start">
