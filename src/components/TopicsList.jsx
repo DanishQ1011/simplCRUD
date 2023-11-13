@@ -44,7 +44,7 @@ export default function TopicsList() {
           </div>
 
           <div className="flex gap-4 items-start">
-            <RemoveBtn />
+            <RemoveBtn id={t._id} />
             <button className="text-green-500">
               <Link href={`/editTopic/${t._id}`}>
                 <HiPencilAlt size={24} />
